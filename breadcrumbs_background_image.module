@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Module file for block_example.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function breadcrumbs_background_image_theme() {
+    return [
+      'breadcrumbs_background_image_block' => [
+        'variables' => [
+          'imageurl' => [],
+          'breadcrumb' => [],
+        ],
+      ],
+    ];
+  }

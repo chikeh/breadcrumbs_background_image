@@ -1,0 +1,7 @@
+name: Breadcrumbs Background Image
+type: module
+description: Add Breadcrumbs blocks with background images using image fields on the page.
+package: Custom
+core_version_requirement: ^9
+dependencies:
+  - drupal:block
